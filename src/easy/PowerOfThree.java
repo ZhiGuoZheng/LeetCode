@@ -1,9 +1,10 @@
 package easy;
 
 /**
-
- * Created by MER on 2018/9/16
- * Time: 16:34
+ * PowerOfThree
+ *
+ * @author MER
+ * @date 2018/9/16
  * Description: 【3的幂】
  * 给定一个整数，写一个函数来判断它是否是 3 的幂次方。
  *
