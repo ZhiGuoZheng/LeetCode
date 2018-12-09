@@ -27,7 +27,7 @@ package easy;
  * @time 2018/12/9 23:30
  * @version V1.0
  */
-public class MaxProfitTwo {
+public class MaxProfit2 {
 
     public int maxProfitTwo(int[] prices) {
 
@@ -64,14 +64,14 @@ public class MaxProfitTwo {
     }
 
     public static void main(String[] args) {
-        MaxProfitTwo maxProfitTwo = new MaxProfitTwo();
+        MaxProfit2 maxProfit2 = new MaxProfit2();
 
         int[] prices1 = {7, 1, 5, 3, 6, 4};
         int[] prices2 = {1, 2, 3, 4, 5};
         int[] prices3 = {7, 6, 4, 3, 1};
 
-        System.out.println(maxProfitTwo.maxProfitTwo(prices1));
-        System.out.println(maxProfitTwo.maxProfitTwo(prices2));
-        System.out.println(maxProfitTwo.maxProfitTwo(prices3));
+        System.out.println(maxProfit2.maxProfitTwo(prices1));
+        System.out.println(maxProfit2.maxProfitTwo(prices2));
+        System.out.println(maxProfit2.maxProfitTwo(prices3));
     }
 }
