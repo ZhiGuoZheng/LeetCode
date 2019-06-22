@@ -9,3 +9,6 @@ lib/
 
 # 忽略 .idea 文件夹
 *.idea/
+
+# 忽略 .vscode 文件夹
+*.vscode/
