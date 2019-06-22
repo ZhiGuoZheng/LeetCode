@@ -42,12 +42,16 @@
 class Solution {
 
     public int reverse(int x) {
+
+        // 定义反转数
         long r = 0l;
+        // 进行 “乘10加余” 进行反转
         while (x != 0) {
             r = r * 10 + x % 10;
             x /= 10;
         }
 
+        // 判断反转后的数是否溢出
         if (r >= Integer.MIN_VALUE && r <= Integer.MAX_VALUE) {
             return (int)r;
         } else {
