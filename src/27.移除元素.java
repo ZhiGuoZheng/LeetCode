@@ -60,9 +60,7 @@
  */
 class Solution {
     public int removeElement(int[] nums, int val) {
-        // 计数器
-        int count = 0;
-        // 指针1
+        // 慢指针
         int i = 0;
         // 遍历数组
         for(int j = 0; j < nums.length; j++) {
@@ -70,14 +68,12 @@ class Solution {
             if (val != nums[j]) {
                 // 当前值前移
                 nums[i] = nums[j];
-                // 计数+1
-                count++;
-                // 移动指针+1
+                // 慢指针前移
                 i++;
             }
             
         }
-        return count;
+        return i;
     }
 }
 
